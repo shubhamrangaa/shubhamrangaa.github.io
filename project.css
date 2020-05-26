@@ -14,27 +14,21 @@ body{
 #mainNavbar .nav-link{
   color:  ;
 }
-section{
-  height:  2000px;
-}
+
 .JobifyBoard{
   background:  #2c3e50;
-
 }
 .UpdateLog{
   background:  #2ecc71;
-  height: 500px;
   opacity: .5;
 }
 .UpdateLog:hover{
   opacity: 1;
   transition: opacity 800ms;
 }
-.JobBoard{
-}
 .JobBoard .board:hover .tile-img {
   top: -1rem;
-  left: -1rem;
+  left: -.5rem;
 }
  .tile-img  {
   position: relative;
@@ -43,7 +37,7 @@ section{
   -webkit-transition-property: opacity, top, left, box-shadow;
   transition-property: opacity, top, left, box-shadow;
 }
-.board{
+.board .tile-img{
     height: 10rem;
   -webkit-transition-property: opacity;
   transition-property: opacity;
@@ -54,9 +48,9 @@ section{
 }
 
 .board:hover .tile-img {
-  box-shadow: 5px 5px rgba(244, 170, 200, 0.4),
-    10px 10px rgba(244, 170, 200, 0.3), 15px 15px rgba(244, 170, 200, 0.2),
-    20px 20px rgba(244, 170, 200, 0.1), 25px 25px rgba(244, 170, 200, 0.05);
+  box-shadow: 5px 5px rgba(46, 204, 113, 0.4),
+    10px 10px rgba(46, 204, 113, 0.3), 15px 15px rgba(46, 204, 113, 0.2),
+    20px 20px rgba(46, 204, 113, 0.1), 25px 25px rgba(46, 204, 113, 0.05);
 }
 
 .navbar.scrolled{
