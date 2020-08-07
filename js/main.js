@@ -1,8 +1,14 @@
+
+ 
+ 
  AOS.init({
  	duration: 800,
  	easing: 'slide',
  	once: false
  });
+
+ 
+ 
 
 jQuery(document).ready(function($) {
 
@@ -124,7 +130,6 @@ jQuery(document).ready(function($) {
 	// siteSliderRange();
 
 
-	
 
 	var siteCarousel = function () {
 		if ( $('.nonloop-block-13').length > 0 ) {
@@ -271,6 +276,20 @@ jQuery(document).ready(function($) {
 	}
 	counter();
 
+	
 
 
 });
+
+// console.log("connected");
+// var nightbutton = document.getElementsByClassName('dark-mode');
+// var body = document.body;
+
+function myFunction() {
+	var element = document.body;
+	element.classList.toggle("dark");
+	
+	
+	
+	
+ }
