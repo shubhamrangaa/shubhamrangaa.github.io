@@ -305,7 +305,12 @@ body {
   line-height: 1.7;
   font-weight: 400;
   font-size: 1rem;
+  scroll-behavior: smooth;
+  /* scroll-snap-type: y mandatory; */
+}
 
+.container{
+  
 }
 body:before {
   position: absolute;
@@ -2142,6 +2147,7 @@ body::-webkit-scrollbar-thumb{
   flex-direction: column;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .nav-item{
@@ -2245,7 +2251,8 @@ body::-webkit-scrollbar-thumb{
 }
 
 .light{
-  background: var(--light);
+  /* background: var(--light); */
+  color: var(--light) !important;
 }
 
 .dark{
@@ -2261,3 +2268,22 @@ body::-webkit-scrollbar-thumb{
   background: black !important;
 } */
 
+#contact-section .my-info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.my-address , .email , .phone{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 3rem;
+}
+
+.my-address i, .email i, .phone i{
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
