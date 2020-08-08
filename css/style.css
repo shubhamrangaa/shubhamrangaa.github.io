@@ -142,7 +142,7 @@
 
 .font-gray-7,
 body {
-  color: #939393;
+  color: #aaaaaa;
 }
 
 .font-gray-8 {
@@ -2247,7 +2247,7 @@ body::-webkit-scrollbar-thumb{
 
 :root{
   --dark: #0A0A0A;
-  --light: #F8F1F6;
+  --light: #fff9fd;
 }
 
 .light{
@@ -2270,15 +2270,18 @@ body::-webkit-scrollbar-thumb{
 
 #contact-section .my-info{
   display: flex;
-  align-items: center;
+ 
   flex-direction: column;
 
+}
+#contact-section{
+  padding-bottom: 3rem;
 }
 
 .my-address , .email , .phone{
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: start    ;
   padding-top: 3rem;
 }
 
@@ -2286,4 +2289,32 @@ body::-webkit-scrollbar-thumb{
   height: 2rem;
   width: 2rem;
   margin-right: 1rem;
+  color: rgb(115, 104, 124);
 }
+
+#contact-section .socials{
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  
+  padding-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+#contact-section .socials i{
+  margin-right: 5rem;
+  color: rgb(115, 104, 124);
+
+}
+#contact-section .socials a:hover i{
+  color: blueviolet !important;
+}
+
+/* @media only screen and (min-width: 900px){
+  #press-section{
+    height: 100vh;
+  }
+  #skills{
+    height: 100vh;
+  }
+} */
